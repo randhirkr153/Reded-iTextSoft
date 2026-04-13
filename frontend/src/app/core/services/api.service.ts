@@ -6,7 +6,7 @@ import { Observable, catchError, throwError } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl = 'http://localhost:5000/api';
+  private apiUrl = 'https://reded-itextsoft.onrender.com/api';
 
   constructor(private http: HttpClient) {}
 
